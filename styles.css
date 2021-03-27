@@ -1,4 +1,4 @@
-body, ol, ol li, div, h1{
+body, ol, ol li, div, h1, p{
 	margin: 0;
 	padding: 0;
 }
@@ -7,18 +7,21 @@ body, ol, ol li, div, h1{
 	border: 1px solid grey;
 	font-family: Verdana;
 	font-size: 12px;
+	box-sizing: border-box;
 }
 .head{
+	width: 100%;
 	display: flex;
 	background-color: #1b5589;
 	align-items: center;
 	padding: 3px 40px;
+	box-sizing: border-box;
 }
 ol li{
 	list-style-type: none;	
 }
 .head li:last-child{
-	width: 70%;
+	width: 80%;
 	text-align: right;
 }
 .head li a{
@@ -34,26 +37,75 @@ ol li{
 }
 .main{
 	padding: 25px 40px 20px 40px;
+	box-sizing: border-box;
 }
 h1{
 	font-weight: normal;
 	text-align: center;
 	margin-bottom: 25px;
+	font-size: 28px;
 }
 .blue{
 	display: flex;
-	
+	background-color: #cce5ff;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 .blue li{
-	width: 33.33%;
 	text-transform: uppercase;	
-	background-color: #cce5ff;
-	padding: 10px 40px;
+	text-align: center;
+	padding: 10px 0;
+}
+.blue li:first-child{
+	width: 20%;
+}
+.blue li:nth-child(2){
+	width: 40%;
+}
+.blue li:last-child{
+	width: 40%;
 }
 .blue li a{
 	color: #164478;
-	text-decoration: none;
+	text-decoration: none;	
 }
 .blue li a:hover{
 	text-decoration: underline;
+}
+.forms{
+	display: flex;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.photo, .info, .password{
+	border: 1px solid black;
+}
+.photo{
+	width: 20%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.avatar{
+	width: 80%;	
+}
+#ava{
+	display: none;
+}
+.ChoosePh{
+	width: 80%;	
+	text-align: center;
+	margin: 0 10%;
+	background-color: #6c757d;
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+}
+label{
+	cursor: pointer;
+}
+.info{
+	width: 40%;	
+}
+.password{
+	width: 40%;	
 }
