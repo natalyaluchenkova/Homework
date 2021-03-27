@@ -86,7 +86,7 @@ h1{
 	box-sizing: border-box;
 }
 .avatar{
-	width: 80%;	
+	width: 70%;	
 }
 #ava{
 	display: none;
@@ -104,8 +104,30 @@ label{
 	cursor: pointer;
 }
 .info{
-	width: 40%;	
+	width: 40%;
+	box-sizing: border-box;
+	padding: 0 20px;
 }
+input{
+	padding: 10px;
+	width: 95%;
+	margin-bottom: 21px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+button{
+	border: none;
+	background-color: #6c757d;
+	color: white;
+	padding: 10px 0;
+	width: 95%;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+
+
 .password{
 	width: 40%;	
 }
