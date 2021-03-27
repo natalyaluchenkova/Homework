@@ -1,0 +1,35 @@
+body, ol, ol li, div{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 70%;
+	border: 1px solid grey;
+	font-family: Verdana;
+	font-size: 12px;
+}
+ol{
+	display: flex;
+	background-color: #1b5589;
+	align-items: center;
+	padding: 3px 40px;
+}
+ol li{
+	list-style-type: none;	
+}
+ol li:last-child{
+	width: 70%;
+	text-align: right;
+}
+ol li a{
+	text-decoration: none;
+	color: #89a7c0;
+	padding: 10px;
+}
+ol li a:hover{
+	color: white;
+}
+ol li:first-child img{
+	width: 85%;
+}
+
