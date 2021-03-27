@@ -1,14 +1,14 @@
-body, ol, ol li, div{
+body, ol, ol li, div, h1{
 	margin: 0;
 	padding: 0;
 }
-div{
+.wrapper{
 	width: 70%;
 	border: 1px solid grey;
 	font-family: Verdana;
 	font-size: 12px;
 }
-ol{
+.head{
 	display: flex;
 	background-color: #1b5589;
 	align-items: center;
@@ -17,19 +17,43 @@ ol{
 ol li{
 	list-style-type: none;	
 }
-ol li:last-child{
+.head li:last-child{
 	width: 70%;
 	text-align: right;
 }
-ol li a{
+.head li a{
 	text-decoration: none;
 	color: #89a7c0;
 	padding: 10px;
 }
-ol li a:hover{
+.head li a:hover{
 	color: white;
 }
-ol li:first-child img{
+.head li:first-child img{
 	width: 85%;
 }
-
+.main{
+	padding: 25px 40px 20px 40px;
+}
+h1{
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.blue{
+	display: flex;
+	
+}
+.blue li{
+	width: 33.33%;
+	text-transform: uppercase;	
+	background-color: #cce5ff;
+	padding: 10px 40px;
+}
+.blue li a{
+	color: #164478;
+	text-decoration: none;
+}
+.blue li a:hover{
+	text-decoration: underline;
+}
