@@ -8,6 +8,7 @@ body, ol, ol li, div, h1, p{
 	font-family: Verdana;
 	font-size: 12px;
 	box-sizing: border-box;
+	margin: 0 auto;
 }
 .head{
 	width: 100%;
@@ -77,9 +78,6 @@ h1{
 	box-sizing: border-box;
 	padding-top: 30px;
 }
-.photo, .info, .password{
-	border: 1px solid black;
-}
 .photo{
 	width: 20%;
 	text-align: center;
@@ -92,9 +90,8 @@ h1{
 	display: none;
 }
 .ChoosePh{
-	width: 80%;	
+	width: 100%;	
 	text-align: center;
-	margin: 0 10%;
 	background-color: #6c757d;
 	color: white;
 	padding: 10px 0;
@@ -110,7 +107,7 @@ label{
 }
 input{
 	padding: 10px;
-	width: 95%;
+	width: 100%;
 	margin-bottom: 21px;
 	border: 1px solid lightgrey;
 	border-radius: 5px;
@@ -121,13 +118,13 @@ button{
 	background-color: #6c757d;
 	color: white;
 	padding: 10px 0;
-	width: 95%;
+	width: 100%;
 	box-sizing: border-box;
 	border-radius: 5px;
+	cursor: pointer;
 }
-
-
-
 .password{
-	width: 40%;	
+	width: 40%;
+	box-sizing: border-box;
+	padding-left: 20px;
 }
